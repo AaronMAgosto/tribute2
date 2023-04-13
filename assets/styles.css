@@ -1,0 +1,32 @@
+body {
+    background-image: url("../Screenshot\ 2023-04-13\ at\ 6.34.50\ PM.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100vw;
+    box-sizing: border-box;
+    font-family: 'Chivo Mono', monospace;
+}
+
+.main-container {
+    background-color: rgba(9, 243, 239, 0.446);
+    padding: 10px;
+    border-radius: 13px;
+    width: fit-content;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, darkblue, darkorchid) 1;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+     
+    color: rgb(0, 0, 0);}
+h2 {
+    color: rgb(0, 0, 0);
+    font-size: clamp(16px, 4vw, 18px);
+}
